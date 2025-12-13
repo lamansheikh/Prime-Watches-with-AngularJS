@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
 })
 export class Cards {
  
-  
+   searchText : String  = "";
  
   cards =  [
     {
@@ -53,6 +53,24 @@ export class Cards {
 
   ]
 
+  
+  get filteredCards(){
 
+    if(!this.searchText)
+      return this.cards
+
+    const txt = this.searchText.toLowerCase();
+
+    return this.cards.filter( data =>{
+
+     return (data.title || '').toLowerCase().includes(txt);
+
+    })
+
+  }
 }
+
+
+
+
 

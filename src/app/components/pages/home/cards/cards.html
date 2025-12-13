@@ -4,14 +4,14 @@
 
     <form>
         <div class="search d-flex">
-            <input type="text" class="m-2 p-3 form-control border border-secondary" placeholder="Search any product">
+            <input type="text" class="m-2 p-3 form-control border border-secondary" placeholder="Search any product" [(ngModel)]="searchText" name="search">
             <button class="btn btn-warning text-dark">Search</button>
         </div>
     </form>
 
     <div class="all-cards p-5 row justify-content-center" >
 
-        <div class="card p-3" style="width: 18rem;" *ngFor="let abc of cards" >
+        <div class="card p-3" style="width: 18rem;" *ngFor="let abc of filteredCards" >
             <img [src]="abc.image" class="card-img-top" [alt]="">
             <div class="card-body">
                 <h5 class="card-title"><b><i>{{abc.title}}</i></b></h5>
@@ -21,6 +21,7 @@
             </div>
         </div>
 
-       
+         
     </div>
 </div>
+
