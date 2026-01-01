@@ -3,11 +3,11 @@ import { Navbar } from '../../navbar/navbar';
 import { Footer } from '../../footer/footer';
 
 @Component({
-  selector: 'app-about',
+  selector: 'app-contact',
   imports: [Navbar, Footer],
-  templateUrl: './about.html',
-  styleUrl: './about.css',
+  templateUrl: './contact.html',
+  styleUrl: './contact.css',
 })
-export class About {
+export class Contact {
 
 }
