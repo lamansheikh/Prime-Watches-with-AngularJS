@@ -1,8 +1,10 @@
-<<<<<<< HEAD
+
 # Prime-Watches-with-AngularJS
 Ecommerce Static Layout Prime-Watches using AngularJS and TypeScript 
 =======
 # MyApp
+
+<img width="2560" height="7490" alt="Image" src="https://github.com/user-attachments/assets/d91c4e45-5289-4fce-a4f7-a1641ecb3e57" />
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
 
@@ -16,7 +18,6 @@ ng serve
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 ## Code scaffolding
 
-<img width="2560" height="7378" alt="Image" src="https://github.com/user-attachments/assets/26245da8-6664-4cce-85e2-95f69ad28a59" />
 
 
 Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
