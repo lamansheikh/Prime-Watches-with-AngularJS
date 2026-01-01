@@ -4,7 +4,7 @@ Ecommerce Static Layout Prime-Watches using AngularJS and TypeScript
 =======
 # MyApp
 
-<img width="2560" height="7490" alt="Image" src="https://github.com/user-attachments/assets/d91c4e45-5289-4fce-a4f7-a1641ecb3e57" />
+<img width="1280" height="auto" alt="Image" src="https://github.com/user-attachments/assets/d91c4e45-5289-4fce-a4f7-a1641ecb3e57" />
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
 
